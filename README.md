@@ -39,8 +39,8 @@ Wenn genug Zeit bleibt, soll zusätzlich ein Upgrade-System entstehen, mit dem m
 
 ## 07.11.2025
 Epic-Nr:
-- [ ]  -
-- [ ]  -
-- [ ]  -
+- [x]  Als Spieler möchte ich mit dem Pfeil nach oben beschläunigen können, damit das Flugzeug fligt.
+- [x]  Als Spieler möchte ich mit den Tasten Pfeil nach Links und nach rechts die richtung des Flugzeuges ändern können, damit die Steuerung komplett ist.
+- [x]  Als Spieler möchte ich, dass mein Bomber von Flugphysik betroffen ist. 
 
-Heute habe ich...
+Heute habe ich erflogreich mit Hilfe von Tutorials eine gute Steuerung für mein Bomber entwickelt, ausserdem habe ich dafür gesorgt, das mein Bomber von Flugphysik betroffen ist und wenn man nicht Beschleunigt fängt es an, langsam zu sinken und hat auch ein Drag Effekt wegen des Windwiderstandes.
