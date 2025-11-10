@@ -38,7 +38,7 @@ Wenn genug Zeit bleibt, soll zusätzlich ein Upgrade-System entstehen, mit dem m
 8. (optional) Als Spieler möchte ich mein Flugzeug verbessern können mit Upgrades
 
 ## 07.11.2025
-Epic-Nr:
+Epic-Nr: 1
 - [x]  Als Spieler möchte ich mit dem Pfeil nach oben beschläunigen können, damit das Flugzeug fligt.
 - [x]  Als Spieler möchte ich mit den Tasten Pfeil nach Links und nach rechts die richtung des Flugzeuges ändern können, damit die Steuerung komplett ist.
 - [x]  Als Spieler möchte ich, dass mein Bomber von Flugphysik betroffen ist. 
