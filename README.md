@@ -44,3 +44,18 @@ Epic-Nr: 1
 - [x]  Als Spieler möchte ich, dass mein Bomber von Flugphysik betroffen ist. 
 
 Heute habe ich erflogreich mit Hilfe von Tutorials eine gute Steuerung für mein Bomber entwickelt, ausserdem habe ich dafür gesorgt, das mein Bomber von Flugphysik betroffen ist und wenn man nicht Beschleunigt fängt es an, langsam zu sinken und hat auch ein Drag Effekt wegen des Windwiderstandes.
+
+# 14.11.2025
+Epic-Nr: 3
+- [x] Als Entwickler möchte ich, dass alle Gegner in einem bestimmten Radius den Bomber tracken, damit sie seinen Flugweg berechnen können.
+- [x] Als Entwickler möchte ich, dass die Gegner mit diesen Daten die Flugbahn des Bombers vorhersagen können, damit sie den Flieger abschießen können.
+- [x] Als Spieler möchte ich, dass die Gegner auf mich schießen, damit ich auch verlieren kann.
+
+Heute habe ich den Anti-Air-Gegner vollständig programmiert. Er kann nun auf den Bomber schießen. Allerdings funktioniert die Berechnung der Flugbahn noch nicht korrekt. Der Gegner zielt derzeit direkt auf das Flugzeug, was das Ausweichen sehr einfach macht. Außerdem müssen die Schüsse limitiert werden, da eine zu hohe Schussrate die Performance beeinträchtigt. Aktuell verursachen die Schüsse noch keinen Schaden. Zusätzlich schießt der Gegner weiter, selbst nachdem er zerstört wurde, da er erst mit einer Verzögerung aus dem Spiel entfernt wird.
+
+# 21.11.2025
+Epic-Nr: 3
+- [ ] Als Spieler möchte ich, dass die Schüsse des Gegners Schaden anrichten, sodass ich auch verlieren kann.
+- [ ] Als Entwickler möchte ich die Berechnung der Flugbahn des Bombers verbessern, damit die Gegner ihn mit größerer Genauigkeit abschießen können.
+- [ ] Als Spieler möchte ich, dass die Gegner aufhören zu schießen, wenn ich sie getroffen habe.
+
