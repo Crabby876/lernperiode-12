@@ -8,7 +8,7 @@ Mein Ziel ist es, ein funktionierendes Spiel zu erstellen und dabei den gesamten
 
 ## Projektidee
 Ich entwickle ein 2D-Bomber-Spiel, in dem der Spieler ein Flugzeug steuert, das feindliche Bodeneinheiten (z. B. Panzer oder Flakgeschütze) bombardiert.  
-Die Gegner schießen mit Kanonen oder Raketen auf das Flugzeug, wodurch der Spieler gezwungen ist, taktisch zu fliegen und Angriffen auszuweichen.  
+Die Gegner schiessen mit Kanonen oder Raketen auf das Flugzeug, wodurch der Spieler gezwungen ist, taktisch zu fliegen und Angriffen auszuweichen.  
 Ziel ist es, alle Gegner eines Levels zu zerstören, um das Level erfolgreich abzuschliessen.  
 
 Wenn genug Zeit bleibt, soll zusätzlich ein Upgrade-System entstehen, mit dem man nach erfolgreichen Missionen neue Bomben, Flares oder Waffenverbesserungen kaufen kann.
@@ -48,14 +48,14 @@ Heute habe ich erflogreich mit Hilfe von Tutorials eine gute Steuerung für mein
 # 14.11.2025
 Epic-Nr: 3
 - [x] Als Entwickler möchte ich, dass alle Gegner in einem bestimmten Radius den Bomber tracken, damit sie seinen Flugweg berechnen können.
-- [x] Als Entwickler möchte ich, dass die Gegner mit diesen Daten die Flugbahn des Bombers vorhersagen können, damit sie den Flieger abschießen können.
-- [x] Als Spieler möchte ich, dass die Gegner auf mich schießen, damit ich auch verlieren kann.
+- [x] Als Entwickler möchte ich, dass die Gegner mit diesen Daten die Flugbahn des Bombers vorhersagen können, damit sie den Flieger abschiessen können.
+- [x] Als Spieler möchte ich, dass die Gegner auf mich schiessen, damit ich auch verlieren kann.
 
-Heute habe ich den Anti-Air-Gegner vollständig programmiert. Er kann nun auf den Bomber schießen. Allerdings funktioniert die Berechnung der Flugbahn noch nicht korrekt. Der Gegner zielt derzeit direkt auf das Flugzeug, was das Ausweichen sehr einfach macht. Außerdem müssen die Schüsse limitiert werden, da eine zu hohe Schussrate die Performance beeinträchtigt. Aktuell verursachen die Schüsse noch keinen Schaden. Zusätzlich schießt der Gegner weiter, selbst nachdem er zerstört wurde, da er erst mit einer Verzögerung aus dem Spiel entfernt wird.
+Heute habe ich den Anti-Air-Gegner vollständig programmiert. Er kann nun auf den Bomber schiessen. Allerdings funktioniert die Berechnung der Flugbahn noch nicht korrekt. Der Gegner zielt derzeit direkt auf das Flugzeug, was das Ausweichen sehr einfach macht. Ausserdem müssen die Schüsse limitiert werden, da eine zu hohe Schussrate die Performance beeinträchtigt. Aktuell verursachen die Schüsse noch keinen Schaden. Zusätzlich schiesst der Gegner weiter, selbst nachdem er zerstört wurde, da er erst mit einer Verzögerung aus dem Spiel entfernt wird.
 
 # 21.11.2025
 Epic-Nr: 3
 - [ ] Als Spieler möchte ich, dass die Schüsse des Gegners Schaden anrichten, sodass ich auch verlieren kann.
-- [ ] Als Entwickler möchte ich die Berechnung der Flugbahn des Bombers verbessern, damit die Gegner ihn mit größerer Genauigkeit abschießen können.
-- [ ] Als Spieler möchte ich, dass die Gegner aufhören zu schießen, wenn ich sie getroffen habe.
+- [ ] Als Entwickler möchte ich die Berechnung der Flugbahn des Bombers verbessern, damit die Gegner ihn mit grösserer Genauigkeit abschiessen können.
+- [ ] Als Spieler möchte ich, dass die Gegner aufhören zu schiessen, wenn ich sie getroffen habe.
 
