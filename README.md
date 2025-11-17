@@ -55,6 +55,7 @@ Heute habe ich den Anti-Air-Gegner vollständig programmiert. Er kann nun auf de
 
 # 21.11.2025
 Epic-Nr: 3
+- [x] Als Spieler möchte ich, dass die entstandenen Bugs, beim erstellen des AntiAirs, gefixt werden, damit das Spiel ohne Probleme läuft. 
 - [ ] Als Spieler möchte ich, dass die Schüsse des Gegners Schaden anrichten, sodass ich auch verlieren kann.
 - [ ] Als Entwickler möchte ich die Berechnung der Flugbahn des Bombers verbessern, damit die Gegner ihn mit grösserer Genauigkeit abschiessen können.
 - [ ] Als Spieler möchte ich, dass die Gegner aufhören zu schiessen, wenn ich sie getroffen habe.
