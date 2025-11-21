@@ -57,6 +57,15 @@ Heute habe ich den Anti-Air-Gegner vollständig programmiert. Er kann nun auf de
 Epic-Nr: 3
 - [x] Als Spieler möchte ich, dass die entstandenen Bugs, beim erstellen des AntiAirs, gefixt werden, damit das Spiel ohne Probleme läuft. 
 - [x] Als Spieler möchte ich, dass die Schüsse des Gegners Schaden anrichten, sodass ich auch verlieren kann.
-- [ ] Als Entwickler möchte ich die Berechnung der Flugbahn des Bombers verbessern, damit die Gegner ihn mit grösserer Genauigkeit abschiessen können.
-- [ ] Als Spieler möchte ich, dass die Gegner aufhören zu schiessen, wenn ich sie getroffen habe.
+- [x] Als Entwickler möchte ich die Berechnung der Flugbahn des Bombers verbessern, damit die Gegner ihn mit grösserer Genauigkeit abschiessen können.
+- [x] Als Spieler möchte ich, dass die Gegner aufhören zu schiessen, wenn ich sie getroffen habe.
+
+Heute habe ich die Bugs des Anti-Air-Systems behoben. Die Gegner verursachen nun korrekt Schaden und hören sofort auf zu schiessen, wenn sie zerstört wurden. Die berechnete Flugbahn des Bombers ist zudem deutlich präziser, sodass die Gegner nicht mehr direkt auf die aktuelle Position zielen. Dadurch funktioniert das gesamte System nun stabil.
+
+# 28.11.2025
+Epic-Nr: 4
+- [ ] Als Spieler möchte ich, dass ein erstes spielbares Level erstellt wird, damit das Spiel gespielt werden kann
+- [ ] Als Spieler möchte ich, dass getrackt wird, wie viele Gegner noch am leben sind, so dass das Spiel beendet wird, wenn alle Gegner ausgeschaltet werden.
+- [ ] Als Spieler möchte ich, dass das Spiel beendet wird wenn ich Abgeschossen werde.
+
 
