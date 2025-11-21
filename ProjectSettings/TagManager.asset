@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Bomb
+  - Plane
+  - Level
+  - Enemy
+  - Dead
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Bomb
+  - Enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Sky
+    uniqueID: 1965909673
+    locked: 0
+  - name: BackGround1
+    uniqueID: 2992922647
+    locked: 0
+  - name: BackGround2
+    uniqueID: 795299707
+    locked: 0
+  - name: Background 3
+    uniqueID: 2253610773
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
