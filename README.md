@@ -71,7 +71,15 @@ Epic-Nr: 4
 Heute habe ich ein erstes vollständig spielbares Level erstellt, sodass das Spiel nun grundsätzlich funktioniert. Ich habe eine Logik implementiert, die die verbleibenden Gegner trackt und das Spiel erfolgreich beendet, sobald alle eliminiert sind. Zudem wurde die „Game Over“-Bedingung eingebaut, sodass das Spiel stoppt, wenn der Spieler abgeschossen wird.
 
 # 05.12.2025
-- [ ] Als Spieler möchte ich ferschiedene Maps mit verschiedenen Schwierigkeiten
-- [ ] Als Entwickler möchte ich Unitys Gui Systhem lernen, um die navigation und das spiel viel Benutzerfreundlicher zu machen.
-- [ ] Als Enttwickler möchte ich ein erstes Menü screen erstellen mit GUI für die einfache Navigation
+- [x] Als Spieler möchte ich verschiedene Maps mit verschiedenen Schwierigkeiten
+- [ ] Als Entwickler möchte ich Unity GUI System lernen, um die Navigation und das Spiel viel benutzerfreundlicher zu machen.
+- [ ] Als Entwickler möchte ich ein erstes Menü Screen erstellen, mit GUI für die einfache Navigation
 
+Heute habe ich nicht alle AP erledigen können, da ein Bug aufgetreten ist, welches mich sehr viel meiner Zeit gekostet hat und ich es immer noch nicht entdeckt habe. Ich habe es mal gelassen und habe 2 weitere Maps erstellt und werde die anderen AP dem nächsten Mal überlassen.
+
+# 19.12.2025
+
+- [x] Als Spieler möchte ich, dass das Anti Air System ohne Bugs funktioniert, für ein fehlerfreies Erlebnis.
+- [ ] Als Entwickler möchte ich Unity GUI System lernen, um die Navigation und das Spiel viel benutzerfreundlicher zu machen.
+- [ ] Als Entwickler möchte ich ein erstes Menü Screen erstellen, mit GUI für die einfache Navigation durch die lvls.
+- [ ] Als Entwickler möchte ich die Logik für den UI schreiben, sodass die UI auch funktioniert.
