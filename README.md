@@ -33,8 +33,8 @@ Wenn genug Zeit bleibt, soll zusätzlich ein Upgrade-System entstehen, mit dem m
 3. Als Spieler möchte ich, dass die Gegner mich angreifen, so dass ich eine Herausforderung habe.
 4. Als Spieler möchte ich, dass das Spiel beendetwird nach dem ich gewinne oder verliere.
 5. Als Spieler möchte ich auf vielen verschiedenen Maps und Levels spielen können
-6. Als Spieler möchte ich das meine Aktionen Effecte und Sounds auslösen
-7. Als Spieler möchte ich ein gutes UI habe, damit ich leicht durch das Spiel navigieren kann.
+6. Als Spieler möchte ich ein gutes UI habe, damit ich leicht durch das Spiel navigieren kann.
+7. Als Spieler möchte ich das meine Aktionen Effecte und Sounds auslösen
 8. (optional) Als Spieler möchte ich mein Flugzeug verbessern können mit Upgrades
 
 ## 07.11.2025
@@ -56,7 +56,30 @@ Heute habe ich den Anti-Air-Gegner vollständig programmiert. Er kann nun auf de
 # 21.11.2025
 Epic-Nr: 3
 - [x] Als Spieler möchte ich, dass die entstandenen Bugs, beim erstellen des AntiAirs, gefixt werden, damit das Spiel ohne Probleme läuft. 
-- [ ] Als Spieler möchte ich, dass die Schüsse des Gegners Schaden anrichten, sodass ich auch verlieren kann.
-- [ ] Als Entwickler möchte ich die Berechnung der Flugbahn des Bombers verbessern, damit die Gegner ihn mit grösserer Genauigkeit abschiessen können.
-- [ ] Als Spieler möchte ich, dass die Gegner aufhören zu schiessen, wenn ich sie getroffen habe.
+- [x] Als Spieler möchte ich, dass die Schüsse des Gegners Schaden anrichten, sodass ich auch verlieren kann.
+- [x] Als Entwickler möchte ich die Berechnung der Flugbahn des Bombers verbessern, damit die Gegner ihn mit grösserer Genauigkeit abschiessen können.
+- [x] Als Spieler möchte ich, dass die Gegner aufhören zu schiessen, wenn ich sie getroffen habe.
 
+Heute habe ich die Bugs des Anti-Air-Systems behoben. Die Gegner verursachen nun korrekt Schaden und hören sofort auf zu schiessen, wenn sie zerstört wurden. Die berechnete Flugbahn des Bombers ist zudem deutlich präziser, sodass die Gegner nicht mehr direkt auf die aktuelle Position zielen. Dadurch funktioniert das gesamte System nun stabil.
+
+# 28.11.2025
+Epic-Nr: 4
+- [x] Als Spieler möchte ich, dass ein erstes spielbares Level erstellt wird, damit das Spiel gespielt werden kann
+- [x] Als Spieler möchte ich, dass getrackt wird, wie viele Gegner noch am leben sind, so dass das Spiel beendet wird, wenn alle Gegner ausgeschaltet werden.
+- [x] Als Spieler möchte ich, dass das Spiel beendet wird wenn ich Abgeschossen werde.
+
+Heute habe ich ein erstes vollständig spielbares Level erstellt, sodass das Spiel nun grundsätzlich funktioniert. Ich habe eine Logik implementiert, die die verbleibenden Gegner trackt und das Spiel erfolgreich beendet, sobald alle eliminiert sind. Zudem wurde die „Game Over“-Bedingung eingebaut, sodass das Spiel stoppt, wenn der Spieler abgeschossen wird.
+
+# 05.12.2025
+- [x] Als Spieler möchte ich verschiedene Maps mit verschiedenen Schwierigkeiten
+- [ ] Als Entwickler möchte ich Unity GUI System lernen, um die Navigation und das Spiel viel benutzerfreundlicher zu machen.
+- [ ] Als Entwickler möchte ich ein erstes Menü Screen erstellen, mit GUI für die einfache Navigation
+
+Heute habe ich nicht alle AP erledigen können, da ein Bug aufgetreten ist, welches mich sehr viel meiner Zeit gekostet hat und ich es immer noch nicht entdeckt habe. Ich habe es mal gelassen und habe 2 weitere Maps erstellt und werde die anderen AP dem nächsten Mal überlassen.
+
+# 19.12.2025
+
+- [x] Als Spieler möchte ich, dass das Anti Air System ohne Bugs funktioniert, für ein fehlerfreies Erlebnis.
+- [ ] Als Entwickler möchte ich Unity GUI System lernen, um die Navigation und das Spiel viel benutzerfreundlicher zu machen.
+- [ ] Als Entwickler möchte ich ein erstes Menü Screen erstellen, mit GUI für die einfache Navigation durch die lvls.
+- [ ] Als Entwickler möchte ich die Logik für den UI schreiben, sodass die UI auch funktioniert.
