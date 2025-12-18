@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class BombScript : MonoBehaviour
 {
-    public float drag = 1f;
+    public float drag = 0.5f;
+    public float forwardBoost = 5f;
 
     public Rigidbody2D rb;
     public GameObject bomb;
     public GameObject explosion;
-    private Explosion bombExplosion;
 
+    private Explosion bombExplosion;
     private List<GameObject> enemys;
 
     void Start()
@@ -18,23 +19,36 @@ public class BombScript : MonoBehaviour
         PlayerMovement player = FindObjectOfType<PlayerMovement>();
         if (player != null)
         {
-            rb.velocity = new Vector2(player.GetVelocity().x * 0.7f, player.GetVelocity().y * 0.7f);
+            rb.velocity = player.GetVelocity();
+
+            Vector2 forwardDirection = player.transform.up;
+            rb.velocity += forwardDirection * forwardBoost;
         }
 
-        bombExplosion = FindObjectOfType<Explosion>();
-        enemys = bombExplosion.enemys;
-
-        
         rb.drag = drag;
+
+        bombExplosion = FindObjectOfType<Explosion>();
+        if (bombExplosion != null)
+        {
+            enemys = bombExplosion.enemys;
+        }
     }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag.ToLower() == "level" || collision.gameObject.tag.ToLower() == "enemy")
+        string tag = collision.gameObject.tag.ToLower();
+
+        if (tag == "level" || tag == "enemy")
         {
             GameObject exp = Instantiate(explosion, transform.position, Quaternion.identity);
             Destroy(exp, 10f);
+
+            if (bombExplosion != null && enemys != null)
+            {
+                bombExplosion.DestroyAll(enemys);
+            }
+
             Destroy(bomb);
-            bombExplosion.DestroyAll(enemys);
         }
     }
 

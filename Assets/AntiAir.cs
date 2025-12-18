@@ -7,7 +7,7 @@ public class AntiAir : MonoBehaviour
     public Rigidbody2D rb;
     public GameObject antiAir;
     public GameObject bulletPrefab;
-    private bool playerTracking = false;
+    public bool playerTracking = false;
     public float t = 1f;
     public float shootCooldown = 0.5f;
     private float shootTimer = 0f;
@@ -15,13 +15,11 @@ public class AntiAir : MonoBehaviour
     private Vector2 playerPosition;
     public Vector2 bulletDirection;
 
-    // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (shootTimer > 0f)
@@ -45,11 +43,10 @@ public class AntiAir : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Player") 
+        if (other.gameObject.tag == "Player")
         {
-            Debug.Log("Player getrackt");
             PlayerMovement playerMovement = other.gameObject.GetComponent<PlayerMovement>();
-            
+
             playerPosition = playerMovement.body.position;
 
             if (playerMovement != null)
@@ -72,8 +69,8 @@ public class AntiAir : MonoBehaviour
         {
             return;
         }
-        if (shootTimer > 0f) 
-        { 
+        if (shootTimer > 0f)
+        {
             return;
         }
 
@@ -81,13 +78,13 @@ public class AntiAir : MonoBehaviour
 
         newPosition = PredictFlight();
 
-        bulletDirection =  (newPosition - rb.position).normalized;
+        bulletDirection = (newPosition - rb.position).normalized;
 
-        GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
+        GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity,antiAir.transform);
 
-        bullet.GetComponent<bulletScript>().direction = bulletDirection;      
+        bullet.GetComponent<bulletScript>().direction = bulletDirection;
 
-        
+
     }
 
     private Vector2 PredictFlight()

@@ -9,6 +9,7 @@ TagManager:
   - Level
   - Enemy
   - Dead
+  - Bullet
   layers:
   - Default
   - TransparentFX

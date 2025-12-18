@@ -8,14 +8,15 @@ public class bulletScript : MonoBehaviour
     public float bulletSpeed = 5f;
     [HideInInspector] public Vector2 direction;
     public GameObject bullet;
+    private Vector3 parentPosition;
 
-    // Start is called before the first frame update
     void Start()
     {
-        body.velocity = direction * bulletSpeed * Time.deltaTime;
+        parentPosition = transform.parent.position;
+        body.velocity = direction * bulletSpeed;
+        
     }
 
-    // Update is called once per frame
     void Update()
     {
         DestroyBullet();
@@ -23,9 +24,18 @@ public class bulletScript : MonoBehaviour
 
     private void DestroyBullet()
     {
-        if (body.position.y > 20 || body.position.x > 20 || body.position.y < -20 || body.position.x < -20)
+        if (body.position.y > parentPosition.y + 20 || body.position.x > parentPosition.x + 20 || body.position.y < parentPosition.y -20 || body.position.x < parentPosition.x -20)
         {
-            Destroy(bullet);
+            Destroy(gameObject);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "Player")
+        {
+            PlayerMovement player = collision.GetComponent<PlayerMovement>();
+            player.KillPlayer();
         }
     }
 }
